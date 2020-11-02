@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:id="@+id/tv1"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="TextView"
+        />
+    <EditText
+        android:textColor="#ffffff"
+        android:id="@+id/et1"
+        android:textSize="25sp"
+        android:background="#FF5722"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/bt1"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:text="Enter"/>
+
+    <Switch
+        android:backgroundTint="#000000"
+        android:thumbTint="#FF5722"
+        android:id="@+id/switch1"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree"
+
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:buttonTint="#FF5722"
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Data" />
+
+        <RadioButton
+            android:buttonTint="#FF5722"
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Mail" />
+        <RadioButton
+            android:buttonTint="#FF5722"
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web Search" />
+        <RadioButton
+            android:buttonTint="#FF5722"
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number Dial" />
+        <RadioButton
+            android:buttonTint="#FF5722"
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download" />
+    </RadioGroup>
+
+
+
+</LinearLayout>
